@@ -55,8 +55,21 @@
     background-color: rgb(168, 168, 241);
 }
 
+
+/* business */
 .business{
     padding-top: 3rem;
+}
+
+.container{
+    margin: 0 57px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: "trip-500";
+}
+
+.container__content{
+    display: flex;
 }
 
 .container--heading{
@@ -67,13 +80,107 @@
 }
 
 .container__content__left{
-    padding: 0 15px;
-    width: 4%;
+    /* padding: 0 15px; */
+    width: 46%;
     
 }
 
 .container__content--para{
-    font: trip-500;
+    font-family: "trip-500";
     padding: 10px 0px;
     color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+}
+
+.row__first{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.element{
+    display: flex;
+    padding: 10px 0;
+}
+
+
+.element__content{
+    font-size: 16px;
+    font-family: "trip-500";
+    padding: 0 0 0 8px;
+    color: #212529;
+}
+
+.element__content-heading{
+    font-size: 20px;
+    font-family: "trip-500";
+    color: #324253;
+}
+
+.element__content-para{
+    font-size: 12px;
+    font-family: "trip-500";
+    padding: 5px 0 0;
+    color: #999999;
+}
+
+.business__img{
+    height: 330px;
+}
+
+
+/* advantages */
+
+.adv{
+    padding: 48px 15px 0px;
+    margin: 0px 53px;
+}
+
+/* .adv__header{
+    text-align: center;
+    margin: auto;
+} */
+
+.adv__header--heading{
+    font-size: 32px;
+    font-family: "trip-500";
+    color: #333333;
+    text-align: center;
+}
+
+.adv__row{
+    padding: 24px 0px 0px;
+    display: flex;
+}
+
+.adv__col{
+    padding: 0px 15px;
+}
+
+.adv__content{
+    padding: 24px 0px 0px;
+    display: flex;
+}
+
+.adv__img{
+    width: 90px;
+    margin-right: 15px;
+}
+
+.adv__content--heading{
+    font-size: 18px;
+    font-family: "trip-500";
+    margin: 0px 0px 8px;
+    color: #333333;
+}
+
+.adv__content--para{
+    color: #666666;
+    font-size: 14px;
+    font-family: "trip-500";
 }
