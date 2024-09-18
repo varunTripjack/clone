@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "trip-500";
+    src: url("./MuseoSans_500.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cbox{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 100px; */
+    /* justify-content: center; */
+}
+
+.navbar{
+    border-bottom: 1px solid #F2F4F7;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 7px;
+    
+}
+
+.navbar__container__logo{
+    width: 150px;
+
+}
+
+.navbar__container__menu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__container__menu__items{
+    list-style: none;
+    /* margin-left: 20px; */
+    font-family: "trip-500";
+    color: #999999;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 9px 15px;
+}
+
+
+.banner{
+    height: 400px;
+    background-color: rgb(168, 168, 241);
+}
+
+.business{
+    padding-top: 3rem;
+}
+
+.container--heading{
+    margin: 0 0 16px;
+    font-size: 32px;
+    font-family: "trip-500";
+    color: #333333;
+}
+
+.container__content__left{
+    padding: 0 15px;
+    width: 4%;
+    
+}
+
+.container__content--para{
+    font: trip-500;
+    padding: 10px 0px;
+    color: #666666;
+}
