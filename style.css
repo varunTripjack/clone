@@ -432,3 +432,48 @@
     position: relative;
     top: 65px;
 }
+
+/* footer  */
+
+.foo{
+    padding: 3rem 13px;
+}
+
+.foo__row{
+    display: flex;
+}
+
+.foo__first{
+    width: 25%;
+}
+
+.foo__flex{
+    display: flex;
+    width: 100%;
+    margin-left: 63px;
+}
+
+.foo__c{
+    font-family: "trip-500";
+    color: #B2B2B2;
+}
+
+.foo__content{
+    width: 35%;
+    font-family: "trip-500";
+    color: #B2B2B2;
+    padding: 0 12px;
+}
+
+.foo__heading{
+    padding: 4px 0px;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.foo_para{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
