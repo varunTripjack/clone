@@ -62,7 +62,7 @@
 }
 
 .container{
-    margin: 0 57px;
+    /* margin: 0 57px; */
     padding: 0px 15px;
     font-size: 16px;
     font-family: "trip-500";
@@ -95,11 +95,16 @@
 
 .row{
     display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px 15px;
 }
 
 .row__first{
     display: flex;
     flex-direction: column;
+    margin-left: -15px;
+    margin-right: -15px;
     padding: 0 15px;
 }
 
@@ -138,7 +143,8 @@
 
 .adv{
     padding: 48px 15px 0px;
-    margin: 0px 53px;
+    /* margin: 0px 53px; */
+    border: 1px solid red;
 }
 
 /* .adv__header{
@@ -160,6 +166,7 @@
 
 .adv__col{
     padding: 0px 15px;
+    margin: 0px -15px;
 }
 
 .adv__content{
@@ -183,4 +190,245 @@
     color: #666666;
     font-size: 14px;
     font-family: "trip-500";
+}
+
+/* contact */
+.contact{
+    background-color: #F4F8FC;
+    padding: 48px 0px;
+    border: 1px solid black;
+    /* background-color: rgb(197, 197, 248); */
+}
+
+/* .container{
+    margin: 0 57px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: "trip-500";
+} */
+
+.contact_work{
+    padding: 0px 30px;
+    width: 50%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact_touch{
+    padding: 0px 30px;
+    width: 50%;
+}
+
+.contact_work-heading{
+    text-align: center;
+    font-size: 32px;
+    font-family: "trip-500";
+    font-weight: 200;
+    color: #333333;
+    text-align: center;
+}
+
+.contact-btn{
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    color: black;
+    padding: 15px 25px;
+    margin-top: 17px;
+    letter-spacing: 1px;
+}
+
+/* register */
+.register{
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.register__header{
+    text-align: center;
+}
+
+.register__header--first{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7e8085;
+    font-family: "trip-500";
+}
+
+.register__header--second{
+    font-size: 32px;
+    font-family: "trip-500";
+}
+
+.register__row{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.register__card{
+    width: 30%;
+    padding: 40px;
+    background-color: #393939;
+}
+
+.register__card--para{
+    color: white;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-family: "trip-500";
+}
+
+.register__card__row{
+    display: flex;
+}
+
+.register__card__row--word{
+    color: white;
+    font-size: 25px;
+    font-family: "trip-500";
+}
+
+.register__card__row{
+    display: flex;
+}
+
+.register__card__row--img{
+    width: 15px;
+    margin-left: 9px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.orange{
+    background-color: #FF7B39;
+}
+
+
+/* pics */
+.pics{
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.pics__header--first{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7e8085;
+    letter-spacing: 2px;
+    font-family: "trip-500";
+}
+
+/* galley */
+
+.gallery{
+    padding: 48px 15px ;
+    border: 1px solid black;
+
+}
+
+.gallery__top{
+    margin-top: 30px;
+}
+
+.gallery__main{
+    margin-bottom: 37px;
+}
+
+.gallery__main--img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.gallery__bottom{
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+.bottom__row{
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.first{
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.first__col{
+    margin: 0 -15px;
+    padding: 0 15px;
+    /* max-width: 50%; */
+    /* object-fit: cover; */
+    /* margin: 0 auto; */
+}
+
+.first__col__top{
+    height: 50%;
+    margin-bottom: 30px;
+}
+/* .first__col__top img {
+    height: 20rem;
+} */
+
+.first__col__top--img{
+    /* width: 5px; */
+    /* height: 25rem; */
+    width: 100%;
+    border-radius: 6px;
+}
+
+.first__bottom{
+    /* padding: 0 15px; */
+    height: 50%;
+}
+
+.first__bottom__row{
+    height: 200px;
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+.first__bottom__row__gallery{
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+
+.first__bottom__row__gallery{
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+
+.first__bottom__row__gallery--img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    /* scale: 0.9; */
+}
+
+.sec__bottom__row__gallery1{
+    padding: 0 15px;
+    margin: 0 -15px;
+    width: 390px;
+}
+
+.sec__first__row{
+    height: 180px;
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+.sec__col__bottom--img{
+    /* width: 5px; */
+    /* height: 25rem; */
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+    top: 65px;
 }
