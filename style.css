@@ -50,10 +50,170 @@
 }
 
 
-.banner{
-    height: 400px;
-    background-color: rgb(168, 168, 241);
+
+/* banner  */
+
+/* .banner{
+    background-color: red;
+} */
+
+.banner__box{
+    width: 33.3%;
 }
+
+.banner__container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.banner--img{
+    width: 100%;
+}
+
+.banner__box--heading{
+    font-size: 34px;
+    text-align: center;
+    line-height: 1.3;
+    padding: 25px 0;
+    color: #000;
+    width: 50%;
+}
+
+.banner__grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 15px 23px;
+    width: 50%;
+}
+
+.banner__grid--item{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__grid__data--subtitle{
+    text-align: center;
+}
+
+.banner__grid__data--img{
+    width: 50%%;
+}
+
+.banner__grid__data--subtitle{
+    padding: 6px 0px;
+}
+
+
+.banner__login{
+    width: 33.3%;
+    height: 100%;
+    padding: 15px 15px 0px 15px;
+    font-family: "trip-500";
+    /* width: 33.3%; */
+}
+
+
+
+.banner__login--heading{
+    font-size: 22px;
+    padding-top: 10px;
+    
+}
+
+.banner__login--para{
+    color: #B2B2B2;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.banner__supplier{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner__supplier--agent{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "trip-500";
+    color: #B2B2B2;
+
+}
+
+.banner__supplier--bar{
+    height: 5px;
+    border-radius: 5px;
+    /* background-color: orange; */
+    margin-top: 6px;
+}
+
+.banner__supplier__container:hover .banner__supplier--bar{
+    background-color: orange;
+}
+
+
+.banner__form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form--field{
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.form--btn{
+    height: 35px;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    padding: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.banner__questions{
+    padding: 16px 0px;
+}
+
+.banner__questions__question{
+    padding: 10px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.banner__question--ques{
+    font-size: 14px;
+    color: #B2B2B2;
+    font-family: "trip-500";
+}
+
+
+.banner__question--solution--a{
+    font-size: 14px;
+    color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* business */
@@ -641,8 +801,14 @@
     font-size: 12px;
     color: #666666;
 }
+.flexx{
+    display: flex;
+    align-items: flex-end;
+}
 
-
+.pad-left{
+    padding-left: 10px;
+}
 
 
 
