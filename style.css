@@ -299,9 +299,11 @@
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
-.orange{
+.register__card:hover{
     background-color: #FF7B39;
 }
+
+
 
 
 /* pics */
@@ -557,4 +559,105 @@
 }
 
 
+/* start  */
 
+.start{
+    background-color: #F1F9FF;
+}
+
+.start__header{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: "trip-500";
+}
+
+.start__header--para{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7E8085;
+}
+
+.start__header--heading{
+    font-size: 32px;
+    color: #333333;
+}
+
+.img__box {
+    width: 100%;
+    height: 300px;
+    padding: 30px 0px;
+}
+
+.img__container{
+    width: 100%;
+    /* height: 0px; */
+    margin: auto;
+}
+
+.start--img{
+    /* width: 350px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.start__bottom{
+    padding-bottom: 40px;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    /* gap: 30px; */
+}
+
+.start__box{
+    font-family: "trip-500";
+}
+
+.start__box--bar{
+    height: 10px;
+    background-color: #c8e2f5;
+    border-radius: 20px;
+}
+
+.start__box:hover .start__box--bar {
+    background-color: orange;
+}
+
+
+.start__box__data{
+    padding: 20px;
+}
+
+.start__box__data--heading{
+    font-size: 14px;
+    color: #999999;    
+}
+
+.start__box__data--para{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .orange{
+    background-color: #FF7B39;
+} */
